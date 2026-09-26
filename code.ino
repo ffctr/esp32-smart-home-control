@@ -5,9 +5,6 @@ const char* ssid = "WI-FI";
 
 WebServer server(80);
 
-
-
-
 #define L1 23
 #define L2 22
 #define L3 21
@@ -97,7 +94,6 @@ function toggle(device){
 </html>
 )rawliteral";
 
-// ================= SETUP =================
 void setup() {
   Serial.begin(115200);
 
