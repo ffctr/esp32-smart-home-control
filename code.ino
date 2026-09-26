@@ -12,7 +12,7 @@ WebServer server(80);
 #define L4 19
 #define FAN 18
 
-// ================= HTML UI =================
+
 String html = R"rawliteral(
 <!DOCTYPE html>
 <html>
