@@ -5,7 +5,6 @@ const char* ssid = "WI-FI";
 
 WebServer server(80);
 
-// GPIO Pins
 #define L1 23
 #define L2 22
 #define L3 21
